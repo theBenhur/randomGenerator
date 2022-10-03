@@ -1,0 +1,6 @@
+const UPPER_LETTERS = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
+const LOWER_LETTERS = UPPER_LETTERS.toLowerCase();
+const NUMBERS = '0123456789';
+const SYMBOLS = '|!"#$%&/()=?¡¿*[]{}-_.,:;<>@';
+export const CHARACTERS = UPPER_LETTERS + LOWER_LETTERS + NUMBERS + SYMBOLS;
+export const LENGTH = CHARACTERS.length;
